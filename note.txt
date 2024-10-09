@@ -1,0 +1,6 @@
+# tensorflow[and-cuda] # for linux user
+# tensorflow==2.10.0 # for windows user
+# fastapi[standard]
+# uvicorn[standard]
+# numpy
+# pillow
