@@ -45,3 +45,6 @@ if uploaded_file is not None:
     st.write("Confidence Scores:")
     for i, score in enumerate(predictions[0]):
         st.write(f"{class_names[i]}: {score:.2f}")
+
+if __name__ == '__main__':
+    load_classification_model()
